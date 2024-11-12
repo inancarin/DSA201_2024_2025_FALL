@@ -5,13 +5,13 @@ p2 = Person("Jack", 22)
 
 print(p1.name, p1.age)
 print(p2.name, p2.age)
-print(p1)
+print(p1) # __str__
 print(p2)
 """
 myList = []
 myList.append(p1)
 myList.append(p2)
-print(myList)
+print(myList) # # __repr__
 """
 
 #p2.age = 35
